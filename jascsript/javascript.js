@@ -24,3 +24,24 @@
 //     resultado =+ index
 // };
 // console.log(resultado)
+
+
+//Exercicios finais
+
+//Calculo de fatorial
+
+// var fatorial = 5;
+// var resultado = fatorial;
+// for(var i = 1; i < fatorial; i += 1) {
+//     resultado *= i;
+// }
+// console.log(resultado)
+
+// var fatorial = 10;
+// var resultado = fatorial;
+// for(var m = 1; m < fatorial; m += 1) {
+//     resultado *= m;
+// }
+// console.log(resultado)
+
+
