@@ -95,3 +95,20 @@
 // console.log(ultimoMorador);
 // console.log(ultimoMorador['andar']);
 // console.log(ultimoMorador.nome);
+
+
+let player = {
+        nome: 'Marta',
+        lastName: 'Silva',
+        age: 34,
+        medals: 
+        {
+            golden: 2,
+            silver: 3,
+        },
+};
+
+let pessoa = player.nome + '' + player.lastName
+let medalInfo = 'medals'
+console.log(player.medals);
+console.log(pessoa);
