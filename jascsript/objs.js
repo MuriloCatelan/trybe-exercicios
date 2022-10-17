@@ -97,18 +97,101 @@
 // console.log(ultimoMorador.nome);
 
 
-let player = {
-        nome: 'Marta',
-        lastName: 'Silva',
-        age: 34,
-        medals: 
+// let player = {
+//         nome: 'Marta',
+//         lastName: 'Silva',
+//         age: 34,
+//         medals: 
+//         {
+//             golden: 2,
+//             silver: 3,
+//         },
+// };
+
+// let pessoa = player.nome + '' + player.lastName
+// let medalInfo = 'medals'
+// console.log(player.medals);
+// console.log(pessoa);
+
+
+// EXERCICIOS FINAIS DO DIA SOBRE OBJETOS
+
+// let info = {
+//     personagem: 'Margarida',
+//     origem: 'Pato Donald',
+//     nota: 'NAmorada do personagem principal nos quadrinhos do Pato Donald',
+// };
+
+// console.log('Bem-vinda, ' + info.personagem);
+
+
+// let info = {
+//     personagem: 'Margarida',
+//     origem: 'Pato Donald',
+//     nota: 'Namorada do personagem principal nos quadrinhos do Pato Donald',
+// };
+
+// info.recorrente = 'Sim';
+// // info['recorrente'] = 'Sim'
+
+// // console.log(info);
+
+// for(let properties in info){
+//     console.log(properties);
+//     console.log(info[properties]);
+// }
+
+
+// let info = {
+//     personagem: 'Margarida',
+//     origem: 'Pato Donald',
+//     nota: 'Namorada do personagem principal nos quadrinhos do Pato Donald',
+//     recorrente: 'Sim'
+// };
+// let info2 = {
+//     personagem: 'Tio Patinhas',
+//     origem: 'Christmas on Bear Mountain, Dells Four Color Comics #178',
+//     nota: 'O último MacPatinhas',
+//     recorrente: 'Sim',
+// };
+
+// for (let properties in info) {
+//     if (
+//         properties === 'recorrente' &&
+//         info[properties] === 'Sim' &&
+//         info2[properties] === 'Sim'
+//     ) {
+//         console.log('Ambos recorrentes');
+//     }
+//     else {
+//         console.log(info[properties] + ' e ' + info2[properties]);
+//     }
+// };
+
+
+
+let leitor = {
+    nome: 'Julia',
+    sobrenome: 'Pessoa',
+    idade: 21,
+    livrosFavoritos: [
         {
-            golden: 2,
-            silver: 3,
+            titulo: 'O Pior Dia de Todos',
+            autor: 'Daniela Kopsch',
+            editora: 'Tordesilhas',
         },
+    ],
 };
 
-let pessoa = player.nome + '' + player.lastName
-let medalInfo = 'medals'
-console.log(player.medals);
-console.log(pessoa);
+console.log('O livro favorito de ' + leitor.nome + ' ' + leitor.sobrenome + ' se chama "'
+ + leitor.livrosFavoritos[0].titulo + '"');
+
+
+leitor.livrosFavoritos.push({
+    titulo: 'Harry Potter e o Prisioneiro de Azkaban',
+    autor: 'JK Rowling',
+    editora: 'Rocco',
+});
+
+console.log(leitor.nome + ' tem ' + leitor['livrosFavoritos'].length + ' livros favoritos.');
+
