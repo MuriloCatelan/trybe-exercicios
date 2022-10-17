@@ -154,19 +154,22 @@
 // console.log(maior(a, b));
 
 
-function maiorDeTres(a, b, c) {
-    if (a > b && a > c) {
-        return 'O maior numero é ' + a;
-    }
-    else if (b > a && b > c) {
-        return 'O maior numero é ' + b;
-    }
-    else {
-        return 'O maior numero é ' + c;
-    }
-}
+// function maiorDeTres(a, b, c) {
+//     if (a > b && a > c) {
+//         return 'O maior numero é ' + a;
+//     }
+//     else if (b > a && b > c) {
+//         return 'O maior numero é ' + b;
+//     }
+//     else if (c > b && c > a) {
+//         return 'O maior numero é ' + c;
+//     }
+//     else {
+//         return 'Os numeros são iguais';
+//     }
+// }
 
-console.log(maiorDeTres(2, 2, 2));
+// console.log(maiorDeTres(2, 2, 4));
 
 
 // function positive(numero) {
@@ -183,5 +186,27 @@ console.log(maiorDeTres(2, 2, 2));
 // console.log(positive(10));
 // console.log(positive(-5));
 // console.log(positive(0));
+
+
+//SOMA DE 3 ANGULOS
+
+// function triangleAnglesValidate(angleA, angleB, angleC){
+//     let sumOfAngles = angleA + angleB + angleC;
+//     let allAnglesArePositives = angleA > 0 && angleB > 0 && angleC > 0;
+
+//     if (allAnglesArePositives) {
+//         if (sumOfAngles === 180){
+//             return true;
+//         }
+//         else {
+//             return false;
+//         }
+//     }
+//     else {
+//         return 'Erro: ângulo inválido';
+//     }
+// }
+
+// console.log(triangleAnglesValidate(-100, 40, 40));
 
 
